@@ -1,0 +1,27 @@
+# Portable Node & zip archives
+/node/
+*.zip
+
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/.next/
+client/out/
+server/dist/
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+
+# IDE / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
